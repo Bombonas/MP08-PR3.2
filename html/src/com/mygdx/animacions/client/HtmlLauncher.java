@@ -3,7 +3,7 @@ package com.mygdx.animacions.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.mygdx.animacions.animacions;
+import com.mygdx.animacions.Animacions;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -17,6 +17,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new animacions();
+                return new Animacions();
         }
 }
